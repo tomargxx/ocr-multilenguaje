@@ -9,10 +9,10 @@ import tkinter.font as tkFont
 pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 idiomas = {
-    'rus': 'Ruso',
-    'eng': 'Inglés',
-    'kor': 'Coreano',
-    'chi_sim': 'Chino'
+    'rus': 'rus',
+    'eng': 'eng',
+    'kor': 'kor',
+    'chi_sim': 'chi_sim'
 }
 
 root = tk.Tk()
